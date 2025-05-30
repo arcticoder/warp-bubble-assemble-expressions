@@ -26,6 +26,7 @@ stress_url = "https://raw.githubusercontent.com/arcticoder/warp-bubble-einstein-
 # Extract complete mathematical expressions
 line_elem = fetch_nth_block(metric_url, r"\[", r"\]", 0)  # First math block
 R_scalar  = fetch_nth_block(conn_url, r"\[", r"\]", 4)    # Fifth math block (Ricci scalar)
+# Note: R_{μν}R^{μν} not available in current source files
 T_matrix  = fetch_block(stress_url, r"\begin{pmatrix}", r"\end{pmatrix}")
 
 with open("final_expressions.tex", "w") as f:
@@ -37,7 +38,7 @@ with open("final_expressions.tex", "w") as f:
     f.write(f"\\[ {line_elem} \\]\n\n")
     f.write(r"\section*{Curvature Invariants}" + "\n")
     f.write(f"\\[ R = {R_scalar} \\]\n")
-    f.write(r"\[ R_{\mu\nu}R^{\mu\nu} = \text{(to be computed)} \]" + "\n\n")
+    f.write(r"\[ R_{\mu\nu}R^{\mu\nu} = \text{(not available in source files)} \]" + "\n\n")
     f.write(r"\section*{Stress--Energy Tensor}" + "\n")
     f.write(f"\\[ T_{{\\mu\\nu}} = \\begin{{pmatrix}}{T_matrix}\\end{{pmatrix}} \\]\n")
     f.write(r"\end{document}" + "\n")
