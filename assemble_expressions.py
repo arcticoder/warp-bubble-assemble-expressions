@@ -36,8 +36,8 @@ with open("final_expressions.tex", "w") as f:
     f.write(r"\section*{Metric}" + "\n")
     f.write(f"\\[ {line_elem} \\]\n\n")
     f.write(r"\section*{Curvature Invariants}" + "\n")
-    f.write(f"\\[ R = {R_scalar} \\]\n\n")
-    # Note: R_{μν}R^{μν} not available in current source
+    f.write(f"\\[ R = {R_scalar} \\]\n")
+    f.write(r"\[ R_{\mu\nu}R^{\mu\nu} = \text{(to be computed)} \]" + "\n\n")
     f.write(r"\section*{Stress--Energy Tensor}" + "\n")
     f.write(f"\\[ T_{{\\mu\\nu}} = \\begin{{pmatrix}}{T_matrix}\\end{{pmatrix}} \\]\n")
     f.write(r"\end{document}" + "\n")
