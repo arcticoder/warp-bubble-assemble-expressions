@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "warp-bubble-assemble-expressions"
+    },
+    {
+      "path": "../warp-bubble-einstein-equations",
+      "name": "warp-bubble-einstein-equations"
+    },
+    {
+      "path": "../warp-bubble-connection-curvature",
+      "name": "warp-bubble-connection-curvature"
+    },
+    {
+      "path": "../warp-discretization",
+      "name": "warp-discretization"
+    },
+    {
+      "path": "../warp-solver-equations",
+      "name": "warp-solver-equations"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-vscode.cpptools",
+      "james-yu.latex-workshop"
+    ]
+  },
+  "settings": {
+    "files.exclude": {
+      "**/.pytest_cache": true,
+      "**/node_modules": true,
+      "**/venv": true,
+      "**/.git": true,
+      "**/__pycache__": true,
+      "**/.venv": true
+    }
+  }
+}
