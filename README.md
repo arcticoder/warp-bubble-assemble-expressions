@@ -1,6 +1,6 @@
 # warp-bubble-assemble-expressions
 
-This repository provides a comprehensive framework for **assembling and organizing mathematical expressions** from multiple warp bubble analysis repositories into unified, publication-ready documents. It serves as a central coordination point for collecting, processing, and formatting complex mathematical expressions from distributed warp bubble physics calculations.
+This repository provides a framework for **assembling and organizing mathematical expressions** from multiple warp bubble analysis repositories into unified, publication-ready documents. It serves as a central coordination point for collecting, processing, and formatting complex mathematical expressions from distributed warp bubble physics calculations.
 
 ## Overview
 
@@ -20,12 +20,12 @@ This repository provides automated tools to:
 
 ## Features
 
-- **🔗 Repository Integration**: Automated fetching from upstream warp bubble repositories
-- **📐 Mathematical Validation**: Consistency checking and symbolic verification
-- **📄 LaTeX Generation**: Publication-ready mathematical document assembly
-- **🔄 Expression Tracking**: Version control and change detection for mathematical expressions
-- **⚡ Batch Processing**: Efficient handling of large expression collections
-- **🎯 Smart Organization**: Automatic categorization by physics content
+- **Repository Integration**: Automated fetching from upstream warp bubble repositories
+- **Mathematical Validation**: Consistency checking and symbolic verification
+- **LaTeX Generation**: Publication-ready mathematical document assembly
+- **Expression Tracking**: Version control and change detection for mathematical expressions
+- **Batch Processing**: Efficient handling of large expression collections
+- **Smart Organization**: Automatic categorization by physics content
 
 ## Repository Structure
 
@@ -185,19 +185,6 @@ def validate_expression_consistency(expression_set):
 ## License
 
 This project is released under the Unlicense - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this framework in your research, please cite:
-
-```bibtex
-@software{warp_bubble_assemble_expressions,
-  title={Warp Bubble Expression Assembly Framework},
-  author={Arcticoder},
-  year={2025},
-  url={https://github.com/arcticoder/warp-bubble-assemble-expressions}
-}
-```
 
 ---
 
